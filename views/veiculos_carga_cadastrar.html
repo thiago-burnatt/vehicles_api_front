@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <h1>Veículos de carga</h1>
+        <div class="resultado"></div>
+    
+        <form action="http://localhost:8080/cargo" target="_blank" method="POST">
+
+            <label>Modelo</label>
+            <input type="text" name="modelo">
+
+            <label>Ano do modelo</label>
+            <input type="number" name="anoModelo">
+    
+            <label>Ano de fabricação</label>
+            <input type="number" name="anoFabricacao">
+    
+            <label>Valor</label>
+            <input type="number" name="valor">
+    
+            <label>Consumo</label>
+            <input type="text" name="consumo">
+        
+            <label>Motor</label>
+            <input type="text" name="motor">
+        
+            <label>Carga máxima</label>
+            <input type="number" name="cargaMax">
+        
+            <label>Largura</label>
+            <input type="number" name="largura">
+        
+            <label>Comprimento</label>
+            <input type="number" name="comprimento">
+
+            <label>Altura</label>
+            <input type="number" name="altura">
+        
+            <button class="submitBtn2" type="submit">Cadastrar</button>
+    
+      </form>
+    
+      </section>
+    </body>
+    <script src="../scripts/script3_cargo.js"></script>
+</html>

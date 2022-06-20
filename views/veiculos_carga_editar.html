@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Modelo</title>
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Editar</h1>
+    <div class="resultado"></div>
+
+    <form id="actionForm" action=""  method="POST" target="_blank">
+
+      <label>Modelo</label>
+      <input type="text" name="modelo">
+      <label>Ano do modelo</label>
+      <input type="number" name="anoModelo">
+
+      <label>Ano de fabricação</label>
+      <input type="number" name="anoFabricacao">
+
+      <label>Valor</label>
+      <input type="number" name="valor">
+
+      <label>Consumo</label>
+      <input type="text" name="consumo">
+  
+      <label>Motor</label>
+      <input type="text" name="motor">
+  
+      <label>Carga Máxima</label>
+      <input type="number" name="cargaMax">
+  
+      <label>Largura</label>
+      <input type="text" name="largura">
+  
+      <label>Comprimento</label>
+      <input type="text" name="comprimento">
+
+      <label>Altura</label>
+      <input type="text" name="altura">
+
+      <button class="submitBtn" type="submit">Salvar</button>
+
+  </form>
+
+
+  </section>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="../scripts/script2_cargo.js"></script>
+</body>
+
+</html>
