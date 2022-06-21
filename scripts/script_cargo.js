@@ -49,15 +49,15 @@ function carregaElementosNaPagina(json) {
         tr.appendChild(td8);
 
         let td9 = document.createElement('td');
-        td9.innerHTML = vehicle.largura + " m";
+        td9.innerHTML = vehicle.largura + " cm";
         tr.appendChild(td9);
 
         let td10 = document.createElement('td');
-        td10.innerHTML = vehicle.comprimento + " m";
+        td10.innerHTML = vehicle.comprimento + " cm";
         tr.appendChild(td10);
 
         let td11 = document.createElement('td');
-        td11.innerHTML = vehicle.altura + " m";
+        td11.innerHTML = vehicle.altura + " cm";
         tr.appendChild(td11);
    
         let btnEdit = document.createElement('button')
